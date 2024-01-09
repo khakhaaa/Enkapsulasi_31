@@ -1,0 +1,19 @@
+package BelajarJava.Enkapsulasi;
+
+public class UjiBus {
+    public static void main(String[] args) {
+        Bus busMini = new Bus(10);
+        busMini.getPassword(40);
+        busMini.getPassword(90);
+        busMini.cetak();
+
+        busMini.plusPenumpang(3);
+        busMini.cetak();
+
+        busMini.plusPenumpang(1);
+        busMini.cetak();
+
+        busMini.plusPenumpang(1);
+        busMini.cetak();
+    }
+}
